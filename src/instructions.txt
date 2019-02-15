@@ -1,0 +1,18 @@
+Create a components folder in SRC
+For each page create a component page, importing react and exporting render class function
+
+Implement Router
+- Install > npm install react-router-dom --save
+- One way to implement > Surround App with Browser Router in index.js
+
+Create main.js in component file to have all the routes
+- Import react
+- Import Switch, Route from react-router-dom
+- Write const Main = () => (        )
+- Inside write <Switch></Switch> to encapsulate everything
+- Write the routes <Route exact path ="/" component={} /> for each
+- Import the necessary compoents for the routes
+
+Import Link from react-router-dom
+- Change all the <a></a> tags to Link
+- Change all the href to "to"
