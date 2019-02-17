@@ -8,11 +8,13 @@ import { HashRouter as Router, Route } from 'react-router-dom';
 
 const Main = () => (
     <Router>
-        <Route exact path="/" component= {LandingPage} />
-        <Route exact path="/projects" component= {Projects} />
-        <Route exact path="/about" component= {About} />
-        <Route exact path="/contact" component= {Contact} />
-        <Route exact path="/CV" component= {CV} />
+        <div>
+            <Route exact path="/" component= {LandingPage} />
+            <Route exact path="/projects" component= {Projects} />
+            <Route exact path="/about" component= {About} />
+            <Route exact path="/contact" component= {Contact} />
+            <Route exact path="/CV" component= {CV} />
+        </div>
     </Router>
 )
 
