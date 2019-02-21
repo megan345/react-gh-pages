@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class CV extends Component {
+class Skills extends Component {
     render(){
         return(
             <div>
@@ -10,4 +10,4 @@ class CV extends Component {
     }
 }
 
-export default CV;
+export default Skills;
