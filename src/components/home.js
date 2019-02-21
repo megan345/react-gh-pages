@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import About from './aboutme';
-import 'liquidslider/js/jquery.liquid-slider.min.js';
-import Slider from 'liquidslider';
 import jquery from 'jquery';
 
 class Home extends Component {
