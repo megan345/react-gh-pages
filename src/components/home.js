@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import About from './aboutme';
 import jquery from 'jquery';
+import Projects from './projects';
+import Contact from './contact';
 
 class Home extends Component {
     render(){
@@ -60,6 +62,8 @@ class Home extends Component {
         </div>
 
         <About/>
+        <Projects/>
+        <Contact/>
     </div>
 
 

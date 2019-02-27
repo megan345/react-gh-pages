@@ -1,6 +1,22 @@
-// import React, { Component } from 'react';
+import React, { Component } from 'react';
 
-// class Projects extends Component {
+class Projects extends Component {
+    render(){
+        return(
+        <div>
+            <div className="projects">
+                    <div className="banner-text">
+                        <p style={{'color': 'black'}}>Projects</p>
+                    {/* hr */}                            
+                    </div>
+                <div className="banner-box">
 
-// }
-// export default Projects;
+                </div>
+            </div>
+
+        </div>
+        )
+    }
+}
+
+export default Projects;
