@@ -1,17 +1,25 @@
 import React, { Component } from 'react';
+import Button from 'react-bootstrap/Button';
+import { ButtonToolBar } from 'react-bootstrap';
 
 class Contact extends Component {
     render(){
         return(
-        <div>
+        <div id="contact">
             <div className="contact">
-                    <div>
-                        <p style={{'color': 'black'}}>Contact</p>
-                    {/* hr */}     
-                        <p>Email: meganlr504@gmail.com</p>
-                        <p>Phone: 07484 268697</p>
-                        <p>LinkedIn</p>
-                        <p>CV</p>                       
+                <h1 className="contact-title">Contact</h1>
+                    <div className="contact-child">
+                    {/* hr */}
+                        <div className="row1 left">
+                            <Button variant="outline-dark" className="left email">Email</Button>
+                            <Button variant="outline-dark" className="left phone">Phone</Button>
+                        </div>
+                        <div className="row2 right">
+                            <Button variant="outline-dark" className="right linkedin">LinkedIn</Button>
+                            <Button variant="outline-dark" className="right CV">CV</Button>
+                        </div> 
+                        <p>Thanks for visiting</p>
+                        <p>This site was created using React</p>               
                     </div>
                 <div className="banner-box">
 

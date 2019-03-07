@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import styled from 'styled-components';
 import About from './aboutme';
 import jquery from 'jquery';
 import Projects from './projects';
@@ -8,26 +7,21 @@ import Contact from './contact';
 class Home extends Component {
     render(){
         return(
-        <div>
-                <div className="intro">
+        <div id="home">
+            <div className="nav">
+                <ul className="navbar">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#AboutMe">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div className="intro">
                         <div className="banner-text">
                             <h1>Hi, I'm <span>Megan Loureiro-Rickman</span></h1>
-                            <h1>JavaScript/ ReactJs Developer</h1>
-                            <h1>Looking for a Junior role in London</h1>
-
-                        {/* hr */}                            
+                            <h1>JavaScript/ ReactJS Developer</h1>
+                            {/* hr */}                            
                         </div>
-                    <div className="banner-box">
-
-                        <div className="nav">
-                            <ul className="navbar">
-                                <li>Home</li>
-                                <li>About</li>
-                                <li>Projects</li>
-                                <li>Contact</li>
-                            </ul>
-                        </div>
-                    </div>
                 </div>
 
 

@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Projects extends Component {
     render(){
         return(
-        <div>
+        <div id="projects">
             <div className="projects">
                     <div className="banner-text">
                         <p style={{'color': 'black'}}>Projects</p>

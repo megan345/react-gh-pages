@@ -4,7 +4,7 @@ import me from '../assets/me.jpg';
 class AboutMe extends Component {
     render(){
         return(
-        <div>
+        <div id="about">
             <div className="aboutme">
                     <div className="about">
                         <div className="aboutImage">
