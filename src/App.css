@@ -5,6 +5,7 @@
 .navbar {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 0;
 }
 
 a {
@@ -29,6 +30,18 @@ a {
   justify-content: flex-start;
 }
 
+.navright {
+  background-color:none;
+  position: fixed;
+  color:black;
+  width: 100%;
+  margin-left: 0;
+  display: flex;
+  margin-top: 0px;
+  padding-top: 10px;
+  justify-content: flex-end;
+}
+
 .navbar li {
   list-style: none;
   justify-content: space-between;
@@ -37,7 +50,7 @@ a {
   padding-bottom: 10px;
 }
 
-.navbar li:hover {
+.navbar#left li:hover {
   color: 	#000000;
   /* text-decoration: underline;
   text-underline-position: under; */
@@ -71,20 +84,24 @@ h3 {
 
 .intro {
   /* background: #DCDCDC;  */
-  background: #bab0ad;
+  background-image: url('./assets/code.jpg');
   background-size: cover;
   padding-top: 50px;
   text-align: center;
   width: 100%;
-  height: 75vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-span {
+.megan {
   color:#f4429b;
+}
+
+.hi {
+  font-size: 160px;
 }
 
 .banner-text {
@@ -95,6 +112,7 @@ span {
   border-radius: 0px;
   margin: 0 auto;
   text-align: left;
+  padding-top: 0;
 }
 
 .banner-text h1 {
@@ -117,20 +135,25 @@ span {
   padding: 1em;
 }
 
-.social-links {
-  display: flex;
-  justify-content: space-between;
+.pink-banner {
   width: 40%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 25px;
+  padding-left: 50%;
+  padding-right: 50%;
+  padding-top: 25px;
+  padding-bottom: 40px;
+  background-color: #f4429b;
+  margin-right: 0;
 }
 
-.social-links i {
+ i {
   color:black;
   font-size: 2em;
   padding: 0px;
   margin: 0px;
+}
+
+i:hover {
+  color: #f4429b;
 }
 
 .banner-box {
@@ -179,6 +202,15 @@ margin-top: 50px;
   height: 95vh;
 }
 
+.projects-box {
+ 
+}
+
+.project {
+  height: 250px;
+}
+
+
 /* CONTACT */
 
 .contact {
@@ -189,7 +221,7 @@ margin-top: 50px;
 .contact-title {
   padding-top: 20px;
   padding-bottom: 20px;
-  text-align: center;
+  text-decoration: underline;
 }
 
 .contact p {

@@ -10,49 +10,50 @@ class Home extends Component {
         <div id="home">
             <div className="nav">
                 <ul className="navbar">
-                    <li><a href="#home">Home</a></li>
+                    <li><a id="home">Home</a></li>
                     <li><a href="#AboutMe">About</a></li>
                     <li><a href="#">Projects</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </div>
+            <div className="navright">
+                <ul className="navbar" id="left">
+                    <li>{/*LinkedIn*/}
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                        <i className="fa fa-linkedin-square"
+                        aria-hidden="true" ></i>
+                        </a>
+                    </li>
+                    <li>{/*Github*/}
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                            <i className="fa fa-github-square"
+                            aria-hidden="true" ></i>
+                        </a>
+                    </li>
+                    <li>{/*Email*/}
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                            <i className="fa fa-envelope"
+                            aria-hidden="true" ></i>
+                        </a>
+                    </li>
+                    <li>{/*Phone*/}
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                            <i className="fa fa-phone"
+                            aria-hidden="true" ></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
             <div className="intro">
                         <div className="banner-text">
-                            <h1>Hi, I'm <span>Megan Loureiro-Rickman</span></h1>
+                            <h1><span className="hi">Hi, </span> I'm <span className="megan">Megan Loureiro-Rickman</span></h1>
                             <h1>JavaScript/ ReactJS Developer</h1>
                             {/* hr */}                            
                         </div>
                 </div>
 
 
-            <div className="social-links">
-                                
-            {/*LinkedIn*/}
-            <a href="#" target="_blank" rel="noopener noreferrer">
-                <i className="fa fa-linkedin-square"
-                aria-hidden="true" ></i>
-            </a>
-            {/*Github*/}
-            <a href="#" target="_blank" rel="noopener noreferrer">
-                <i className="fa fa-github-square"
-                aria-hidden="true" ></i>
-            </a>
-            {/*FreeCodeCamp*/}
-            <a href="#" target="_blank" rel="noopener noreferrer">
-                <i className="fa fa-free-code-camp"
-                aria-hidden="true" ></i>
-            </a>
-            {/*Email*/}
-            <a href="#" target="_blank" rel="noopener noreferrer">
-                <i className="fa fa-envelope"
-                aria-hidden="true" ></i>
-            </a>
-            {/*Phone*/}
-            <a href="#" target="_blank" rel="noopener noreferrer">
-                <i className="fa fa-phone"
-                aria-hidden="true" ></i>
-            </a>
-
+        <div className="pink-banner">
         </div>
 
         <About/>
