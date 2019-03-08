@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import portfolio from '../assets/portfolio-thumbnail.jpg';
 import kodflix from '../assets/kodflix-thumbnail.jpg';
 import daysaweek from '../assets/8daysaweek-thumbnail.jpg';
+import Slider from './slider';
 
 class Projects extends Component {
     render(){
@@ -20,7 +21,7 @@ class Projects extends Component {
                     <img className="project" src={portfolio}></img>
                 </div>
             </div>
-
+            <Slider />
         </div>
         )
     }
