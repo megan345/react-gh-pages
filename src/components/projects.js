@@ -13,15 +13,12 @@ class Projects extends Component {
                         <h1 style={{'color': 'black', 'text-decoration': 'underline'}}>
                             Projects
                         </h1>
+                        <Slider />
                     {/* hr */}                            
                     </div>
-                <div className="projects-box">
-                    <img className="project" src={kodflix}></img>
-                    <img className="project" src={daysaweek}></img>
-                    <img className="project" src={portfolio}></img>
-                </div>
+                
             </div>
-            <Slider />
+           
         </div>
         )
     }
